@@ -9,11 +9,11 @@ repository = "https://github.com/RustCrypto/utils"
 categories = ["no-std"]
 
 [dependencies]
-byteorder = { version = "1", default-features = false }
+byteorder = { git = "https://github.com/mesalock-linux/byteorder-sgx" }
 
 [dev-dependencies]
-hex = "0.3"
-byteorder = { version = "1", features = ["std"] }
+#hex = "0.3"
+#byteorder = { version = "1", features = ["std"] }
 
 [badges]
 travis-ci = { repository = "RustCrypto/utils" }

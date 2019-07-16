@@ -25,9 +25,9 @@
 //! assert_eq!(bytes, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
 //! # }
 //! ```
+#![no_std]
 #![doc(html_logo_url =
     "https://raw.githubusercontent.com/RustCrypto/meta/master/logo_small.png")]
-
 use proc_macro_hack::proc_macro_hack;
 #[doc(hidden)]
 #[proc_macro_hack]
